@@ -1,24 +1,19 @@
-# README
+# Slack Bot
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Bot integrated with Slack.
 
-Things you may want to cover:
+# Setup
 
-* Ruby version
+## Create a new app
 
-* System dependencies
+1 - Create a new Slack app
 
-* Configuration
+2 - Navigate to the OAuth & Permissions page and add the following Bot Token Scopes:
 
-* Database creation
+commands
 
-* Database initialization
+3 - Activate Slash Commands add two slash commands, using BASE_URL/api/slack/command as the Request URL:
 
-* How to run the test suite
+## Create .env
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Copy .env.example to .env and set values from Slack.
